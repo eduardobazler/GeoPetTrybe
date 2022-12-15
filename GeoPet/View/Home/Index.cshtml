@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Qr Code</h1>
+
+    <img src='@Url.Action("image")' alt="" />
+
+    <script>
+        $(document).ready(function () {
+            alert('ViewBag.image');
+        });
+    </script>
+
+</div>

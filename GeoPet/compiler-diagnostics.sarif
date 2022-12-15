@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.3.0.0",
+        "fileVersion": "4.3.0-3.22415.1 (8301d484)",
+        "semanticVersion": "4.3.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"Xunit\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/eduardo/projetoTrybe/GeoPet/Test/Usings.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 14,
+                  "endLine": 1,
+                  "endColumn": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"FactAttribute\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/eduardo/projetoTrybe/GeoPet/Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 6,
+                  "endLine": 5,
+                  "endColumn": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "O nome do tipo ou do namespace \"Fact\" não pode ser encontrado (está faltando uma diretiva using ou uma referência de assembly?)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/eduardo/projetoTrybe/GeoPet/Test/UnitTest1.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 6,
+                  "endLine": 5,
+                  "endColumn": 10
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rules": {
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0246)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

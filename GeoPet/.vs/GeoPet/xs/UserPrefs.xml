@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{6C0BFC3B-DD4D-41A7-BAD0-1036EE0C9E70}|GeoPet">
+  <MonoDevelop.Ide.ItemProperties.GeoPet PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/BaseController.cs">
+    <Files>
+      <File FileName="Controllers/BaseController.cs" Line="159" Column="2" />
+      <File FileName="Controllers/GeoPetController.cs" Line="31" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GeoPet" expanded="True">
+            <Node name="GeoPet" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="BaseController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="View" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
